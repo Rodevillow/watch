@@ -14,7 +14,7 @@ Lumen (Laravel Micro Framework) + ReactJS + AdminLTE + Webpack Boilerplate
 ## Installation
 On the command prompt run the following commands:
 ```
- $ git clone https://github.com/Bikranshu/lumen-react.git
+ $ https://github.com/Rodevillow/watch.git
  $ cd lumen-react
  $ composer install
  $ npm install
