@@ -8,7 +8,7 @@
     "build": "webpack",
     "serve": "serve ./public"
   },
-  "author": "Krishna Timilsina",
+  "author": "Rodion Maksymenko",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
