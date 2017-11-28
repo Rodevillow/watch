@@ -43,10 +43,10 @@ class LoginForm extends Component {
         return (
             <div className="login-box">
                 <div className="login-logo">
-                    <a href="#"><b>Admin</b>LTE</a>
+                    <a href="#"><b>ReactJS - Redux</b> Lumen</a>
                 </div>
                 <div className="login-box-body">
-                    <p className="login-box-msg">Sign in to start your session</p>
+                    <p className="login-box-msg">Please, Sign in to start your session</p>
 
                     <FlashMessage message={message}/>
 

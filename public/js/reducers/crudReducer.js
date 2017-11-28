@@ -5,9 +5,13 @@ import _ from 'lodash';
 import * as ActionType from '../constants/actionType';
 
 var initialState = {
+    // todo :: clean
     products: [],
+    films: [],
     selectedItem: {
+        // todo :: clean
         product: {},
+        film: {},
     },
     pagination: {},
 };

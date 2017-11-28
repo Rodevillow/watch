@@ -13,17 +13,19 @@ export const CLEAR_LIST = 'CLEAR_LIST';
 export const CLEAR_SELECTED_ITEM = 'CLEAR_SELECTED_ITEM';
 export const FAILURE = 'FAILURE';
 
-export const ADD_PRODUCT = 'ADD_PRODUCT';
-export const EDIT_PRODUCT = 'EDIT_PRODUCT';
-export const DELETE_PRODUCT = 'DELETE_PRODUCT';
-export const CLEAR_PRODUCT_STATE = 'CLEAR_PRODUCT_STATE';
+export const ADD_FILM = 'ADD_FILM';
+export const EDIT_FILM = 'EDIT_FILM';
+export const DELETE_FILM = 'DELETE_FILM';
+export const CLEAR_FILM_STATE = 'CLEAR_FILM_STATE';
 
 export const API_REQUEST = 'API_REQUEST';
 export const API_RESPONSE = 'API_RESPONSE';
 export const API_CLEAR_STATE = 'API_CLEAR_STATE';
 
-
 export const ADD_FLASH_MESSAGE = 'ADD_FLASH_MESSAGE';
 export const REMOVE_FLASH_MESSAGE = 'REMOVE_FLASH_MESSAGE';
+
+// My CONSTANTS
+export const FETCH_ALL_FILMS = 'FETCH_ALL_FILMS';
 
 

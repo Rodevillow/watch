@@ -1,5 +1,5 @@
 const commons = {
-    PRODUCT: 'product'
+    FILM: 'film'
 };
 
 export default commons

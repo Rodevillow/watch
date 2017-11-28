@@ -17,17 +17,17 @@ class UserTableSeeder extends Seeder
         //Add the master administrator, user id of 1
         $users = [
             [
-                'first_name' => 'Krishna',
-                'last_name' => 'Timilsina',
-                'email' => 'admin@admin.com',
+                'first_name' => 'Alex',
+                'last_name' => 'Bow',
+                'email' => 'alex@admin.com',
                 'password' =>app('hash')->make('1234'),
                 'status' => true,
                 'created_at' => Carbon::now()
             ],
             [
-                'first_name' => 'Hari',
-                'last_name' => 'Sharma',
-                'email' => 'user@user.com',
+                'first_name' => 'Ted',
+                'last_name' => 'Brown',
+                'email' => 'ted@admin.com',
                 'password' => app('hash')->make('1234'),
                 'status' => true,
                 'created_at' => Carbon::now()

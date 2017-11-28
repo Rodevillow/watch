@@ -13,13 +13,8 @@ class AuthController extends BaseController
 {
     /**
      * Create a new controller instance.
-     *
-     * @return void
      */
-    public function __construct()
-    {
-        //
-    }
+    public function __construct(){}
 
     /**
      * Handle a login request to the application.

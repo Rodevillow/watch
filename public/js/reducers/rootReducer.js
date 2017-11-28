@@ -12,7 +12,7 @@ const rootReducer = combineReducers({
     auth: authReducer,
     crud: crudReducer,
     api: apiReducer,
-    form: formReducer,  // ← redux-form
+    form: formReducer,
     flash: flashMessageReducer,
     routing: routerReducer
 });

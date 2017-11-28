@@ -26,17 +26,5 @@ On the command prompt run the following commands:
  $ npm run watch
 ```
 Credential:
-- username: admin@admin.com
+- username: alex@admin.com
 - password: 1234
-
-## USEFUL LINK
-- Lumen [https://lumen.laravel.com](https://lumen.laravel.com/)
-- dingo/api [https://github.com/dingo/api](https://github.com/dingo/api)
-- json-web-token(jwt) [https://github.com/tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth)
-- transformer [fractal](http://fractal.thephpleague.com/)
-- apidoc [apidocjs](http://apidocjs.com/)
-- debug rest api [postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
-- api doc [http://lumen.lyyw.info/apidoc](http://lumen.lyyw.info/apidoc)
-- JavaScript library for building user interfaces - [React](https://facebook.github.io/react/)
-- Predictable state container - [Redux](http://redux.js.org/)
-- Promise based HTTP client - [Axios](https://github.com/mzabriskie/axios)

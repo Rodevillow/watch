@@ -27,7 +27,8 @@ export function login({email, password}) {
 
             setToken(response.data.token);
 
-            window.location.href = AppConstant.ROOT_URL + 'dashboard';
+            // window.location.href = AppConstant.ROOT_URL + 'dashboard';
+            window.location.href = AppConstant.ROOT_URL + 'films';
         })
             .catch((error) => {
                 authErrorHandler(dispatch, error.response, ActionType.LOG_IN_FAILURE);

@@ -36,11 +36,11 @@ $api->version('v1', ['namespace' => 'App\Http\Controllers\Api\V1'], function ($a
         $api->post('user', 'UserController@store');
         $api->put('user/{id}', 'UserController@update');
         $api->delete('user/{id}', 'UserController@destroy');
-        // Product
-        $api->get('product', 'ProductController@index');
-        $api->get('product/{id}', 'ProductController@show');
-        $api->post('product', 'ProductController@store');
-        $api->put('product/{id}', 'ProductController@update');
-        $api->delete('product/{id}', 'ProductController@destroy');
+        // Film
+        $api->get('film', 'FilmController@index');
+        $api->get('film/{id}', 'FilmController@show');
+        $api->post('film', 'FilmController@store');
+        $api->put('film/{id}', 'FilmController@update');
+        $api->delete('film/{id}', 'FilmController@destroy');
     });
 });

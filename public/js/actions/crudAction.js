@@ -62,11 +62,12 @@ var commonActions = {
  *
  * ApiService returns a promise which dispatches another action "apiResponse".
  *
- * entity = 'Product', 'Employee', ...
+ * entity = 'Films', 'Employee', ...
  */
 
 
 export function fetchAll(entity, data) {
+
     return function (dispatch) {
         dispatch(apiAction.apiRequest());
         return apiService.fetch(entity, data).then((response) => {
@@ -174,6 +175,7 @@ export function clearSelectedItem(entity) {
 }
 
 export function errorHandler(dispatch, error, type) {
+
     let errorMessage = (error.data.message) ? error.data.message : error.data;
 
     // NOT AUTHENTICATED ERROR
