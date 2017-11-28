@@ -25,6 +25,9 @@ On the command prompt run the following commands:
  $ php -S localhost:8000 -t public/
  $ npm run watch
 ```
+
+localhost:8000/admin
+
 Credential:
 - username: alex@admin.com
 - password: 1234
